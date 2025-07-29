@@ -6,7 +6,6 @@ var main_scripts = {
     init: function(){
         new WOW().init();
         $('.testimonials-items-holder').slick();
-        // $('.recent-work .cards-holder').slick();
 
         $(window).scroll(function(){
             let scroll = $(window).scrollTop();
@@ -27,17 +26,3 @@ var main_scripts = {
         this.bindings();
     },
 }
-
-$(document).ready(function(e) {
-   
-	lc_lightbox('.elem', {
-		gallery : true,	
-		thumbs_nav: false,
-        nav_btn_pos: false,
-		skin: 'minimal',
-		radius: 0,
-		padding	: 0,
-		border_w: 0,
-	});	
-
-});
